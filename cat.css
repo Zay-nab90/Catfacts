@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: greenyellow;
+}
+
+.container {
+    text-align: center;
+}
+
+#fetchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color:red;
+    background-color:#ff9900;
+    cursor: pointer;
+}
+
+#loadingMessage {
+    font-size: 18px;
+    color: #ff9900;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#catFact {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
